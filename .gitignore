@@ -1,0 +1,11 @@
+# Игнорировать виртуальную машину
+metasploitable/
+*.vmdk
+*.vdi
+*.qcow2
+# Игнорировать большие дампы трафика
+wireshark-captures/*.pcapng
+
+# Временные файлы
+*.tmp
+*~
