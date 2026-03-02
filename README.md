@@ -72,7 +72,14 @@ nmap -A 192.168.122.12 -oN scans/detailed_scan.txt
 ```
 ### Вопрос 2: Какие уязвимости были обнаружены?
 🔴 Три критические уязвимости (для отчёта)
-![Три критические уязвимости](img/3_критическихУязвимости.png)
+
+#### 🔴 Три критические уязвимости (для отчёта)
+
+| № | Служба | Версия | Уязвимость | EDB-ID | Ссылка |
+|---|--------|--------|------------|--------|--------|
+| 1 | vsftpd | 2.3.4 | Backdoor Command Execution | 17491 | [exploit-db.com/17491](https://www.exploit-db.com/exploits/17491) |
+| 2 | UnrealIRCd | 3.2.8.1 | Backdoor Command Execution | 16922 | [exploit-db.com/13853](https://www.exploit-db.com/exploits/16922) |
+| 3 | Samba | 3.0.20-Debian | Username map script RCE | 16320 | [exploit-db.com/16320](https://www.exploit-db.com/exploits/16320) |
 
 Описание уязвимостей
 1. vsftpd 2.3.4 Backdoor

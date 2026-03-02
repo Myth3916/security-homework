@@ -4,7 +4,7 @@ metasploitable/
 *.vdi
 *.qcow2
 # Игнорировать большие дампы трафика
-wireshark-captures/*.pcapng
+#wireshark-captures/*.pcapng
 
 # Временные файлы
 *.tmp
